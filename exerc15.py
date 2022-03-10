@@ -18,7 +18,6 @@ print("Para sair digite -1.")
 while True:
 
     if nota == -1:
-        print("Fim do programa")
         break
     nota = float(input("Digite a nota: "))
     if nota != -1:
@@ -47,3 +46,5 @@ print(f"A média das notas é: {round(media,2)}")
 print(f"A quantidade de notas acima da média é: {quantidade_acima_media}")
 # G
 print(f"A quantidade de notas abaixo de 7 é: {quantidade_abaixo_de_7}")
+# H
+print("Fim do programa!")
